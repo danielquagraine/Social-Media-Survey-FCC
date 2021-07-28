@@ -1,0 +1,129 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+main{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+
+}
+
+#cover{
+z-index: -1;
+position: fixed;
+filter: blur(3px);
+width: 100%;
+height: 100%;
+}
+
+#cover img{
+  margin-top: -10vh;
+  object-fit: contain;
+  width:100%;
+}
+
+#formspace{
+  align-content: center;
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+
+#survey-form{
+  display:flex;
+  height: 1800px;
+  width: 700px;
+  margin: auto;
+  flex-direction:column;
+  background: #343633;
+  padding: 20px 50px;
+  color: white;
+  text-align: left;
+  margin-top: 20px;
+  opacity: 0.95;
+  border-radius: 5px;
+}
+
+#title{
+  margin-top: 30px;
+}
+
+#description{
+  margin-top: 10px;
+}
+
+#name, #email, #number, #dropdown{
+  width: 600px;
+  height: 40px;
+}
+
+#survey-form div{
+  margin-top: 40px;
+}
+
+#survey-form div p{
+  justify-content: space-around;
+}
+
+#comments{
+  height:100px;
+  width:400px;
+}
+input, textarea, #dropdown{
+  margin-top: 10px;
+}
+
+
+#submit{
+  margin-top: 30px;
+  background: #48BF84;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+}
+
+footer {
+  display: flex;
+  width:100%;
+  height: 100px;
+  color: white;
+  background: #1C1D22;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+footer p{
+  Padding:0 1em;
+  text-align:center;
+} 
+
+@media only screen  and (max-width:768px) {
+  
+  main{
+     font-size: 16px;    
+  }
+  
+  #formspace{
+  width: 100%;
+  
+}
+
+#survey-form{
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 0px;
+}
+  
+  #name, #email, #number, #dropdown, #comments{
+  width: 100%;
+}
+  
+  textarea {
+  width: 100%;
+  
+}
