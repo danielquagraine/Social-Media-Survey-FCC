@@ -1,4 +1,4 @@
-# Social-Media-Survey--FCC
+# Survey-Form-FCC
 A freeCodeCamp project
 
 
