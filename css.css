@@ -112,6 +112,10 @@ footer p{
   
 }
 
+#cover img{
+  opacity:0.2;
+}
+
 #survey-form{
   width: 100%;
   padding: 20px;
